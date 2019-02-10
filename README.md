@@ -26,31 +26,3 @@ The code format of the `amod` repository is specified in the `amodeus` profile t
 7. Run the `ScenarioServer` as a Java application: the simulation should run
 8. Run the `ScenarioViewer` as a Java application: the visualization of the scenario should open in a separate window
 
-## Gallery
-
-<table><tr>
-<td>
-
-![usecase_amodeus](https://user-images.githubusercontent.com/4012178/35968174-668b6e54-0cc3-11e8-9c1b-a3e011fa0600.png)
-
-Zurich
-
-<td>
-
-![p1t5](https://user-images.githubusercontent.com/4012178/38852351-ce176dc6-4219-11e8-93a5-7ad58247e82b.png)
-
-San Francisco
-
-<td>
-
-![San Francisco](https://user-images.githubusercontent.com/4012178/37365948-4ab45794-26ff-11e8-8e2d-ceb1b526e962.png)
-
-San Francisco
-
-</tr></table>
-
-## Docker
-
-Run `docker-compose up` to run the San Fransisco simulation. This will run two services, `aido-host` and `aido-guest`, which will communicate over port `9382`.
-
-The protocol is specified [here](https://github.com/idsc-frazzoli/amod/blob/master/doc/aido-client-protocol.md).
